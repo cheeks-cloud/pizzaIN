@@ -60,7 +60,6 @@ let totalOfTotals = 0;
     totalOfTotals += total
    return total
   }
-
 $(document).ready(function(){
   $("button#order").click(function(e){
     e.preventDefault()
@@ -69,6 +68,7 @@ $(document).ready(function(){
     let topping=$("#topping").find("option:selected").val()
     let pizzaNumber = $("#noOfPizza").val()
     let delivery = $("input[name = 'Yes']:checked").val()
+    
     let newOrder = new Pizza(pizza, crust, topping , pizzaNumber, delivery)
 
    $("#orders").append(
@@ -87,8 +87,9 @@ $("#no").click(function(){
   $(".addons").hide()
 })
 $("#checkout").click(function(){
- console.log(totalOfTotals)
+ let location = $("#location").val()
  $(".last").text(`The Total of Your Order is : ${ totalOfTotals}`)
+ $(".lasti").text(`Your Address is : ${location}`)
 
 })
 
