@@ -1,12 +1,12 @@
-// //pizza constructor
-// function Pizza(pizzaSize, crustType, topping,numberof, delivery){
-//   this.pizzaSize = pizzaSize
-//   this.crustType = crustType
-//   this.topping = topping
-//   this.numberof = numberof
-//   this.delivery = delivery
+//pizza constructor
+function Pizza(pizzaSize, crustType, topping,numberof, delivery){
+  this.pizzaSize = pizzaSize
+  this.crustType = crustType
+  this.topping = topping
+  this.numberof = numberof
+  this.delivery = delivery
 
-//  }
+ }
 // // function to calaculate total price
 // //pizza prototype
 //  let totalOfTotals = 0;
