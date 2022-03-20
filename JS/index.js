@@ -80,17 +80,17 @@ $(document).ready(function(){
   
   })
 });
-// $("#yes").click(function(){
-//   $(".addons").show()
-// })
-// $("#no").click(function(){
-//   $(".addons").hide()
-// })
-// $("#checkout").click(function(){
-//  console.log(totalOfTotals)
-//  $(".last").text(`The Total of Your Order is : ${ totalOfTotals}`)
+$("#yes").click(function(){
+  $(".addons").show()
+})
+$("#no").click(function(){
+  $(".addons").hide()
+})
+$("#checkout").click(function(){
+ console.log(totalOfTotals)
+ $(".last").text(`The Total of Your Order is : ${ totalOfTotals}`)
 
-// })
+})
 
 
 
