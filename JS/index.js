@@ -61,25 +61,25 @@ let totalOfTotals = 0;
    return total
   }
 
-// $(document).ready(function(){
-//   $("button#order").click(function(e){
-//     e.preventDefault()
-//     let pizza =$("#pizzaSize").find("option:selected").val()
-//     let crust =$("#crustType").find("option:selected").val()
-//     let topping=$("#topping").find("option:selected").val()
-//     let pizzaNumber = $("#noOfPizza").val()
-//     let delivery = $("input[name = 'Yes']:checked").val()
-//     let newOrder = new Pizza(pizza, crust, topping , pizzaNumber, delivery)
+$(document).ready(function(){
+  $("button#order").click(function(e){
+    e.preventDefault()
+    let pizza =$("#pizzaSize").find("option:selected").val()
+    let crust =$("#crustType").find("option:selected").val()
+    let topping=$("#topping").find("option:selected").val()
+    let pizzaNumber = $("#noOfPizza").val()
+    let delivery = $("input[name = 'Yes']:checked").val()
+    let newOrder = new Pizza(pizza, crust, topping , pizzaNumber, delivery)
 
-//    $("#orders").append(
-//     "<tr>"+ "<td>" + pizza +"</td>" +  "<td>"+ crust+"</td>" + 
-//    " <td>"+ topping +"</td>" + "<td>"+ pizzaNumber + "</td>" +
-//    "<td>"+ newOrder.calculatePrice() + "</td>" + 
-//     "</tr>"  
-//    )
+   $("#orders").append(
+    "<tr>"+ "<td>" + pizza +"</td>" +  "<td>"+ crust+"</td>" + 
+   " <td>"+ topping +"</td>" + "<td>"+ pizzaNumber + "</td>" +
+   "<td>"+ newOrder.calculatePrice() + "</td>" + 
+    "</tr>"  
+   )
   
-//   })
-// });
+  })
+});
 // $("#yes").click(function(){
 //   $(".addons").show()
 // })
