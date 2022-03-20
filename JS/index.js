@@ -7,59 +7,59 @@ function Pizza(pizzaSize, crustType, topping,numberof, delivery){
   this.delivery = delivery
 
  }
-// // function to calaculate total price
-// //pizza prototype
-//  let totalOfTotals = 0;
+ // function to calaculate total price
+//pizza prototype
+let totalOfTotals = 0;
 
-//   Pizza.prototype.calculatePrice = function(){
+  Pizza.prototype.calculatePrice = function(){
 
-//     let deliveryprize;
-//     let pizzaPrice;
-//     let crustPrize ;
-//     let toppingPrize;
-//     let numberofPizza;
+    let deliveryprize;
+    let pizzaPrice;
+    let crustPrize ;
+    let toppingPrize;
+    let numberofPizza;
     
-//    if(this.pizzaSize ==="small"){
-//      pizzaPrice = 350
-//    }else if(this.pizzaSize ==="medium"){
-//      pizzaPrice = 600
-//    }else{
-//      pizzaPrice = 800
-//    }
+   if(this.pizzaSize ==="small"){
+     pizzaPrice = 350
+   }else if(this.pizzaSize ==="medium"){
+     pizzaPrice = 600
+   }else{
+     pizzaPrice = 800
+   }
    
-//     if(this.crustType  === "crispy"){
-//       crustPrize = 150
-//     }else if(this.crustType === "stuffed"){
-//       crustPrize = 100
-//     }else{
-//       crustPrize = 70
-//     }
+    if(this.crustType  === "crispy"){
+      crustPrize = 150
+    }else if(this.crustType === "stuffed"){
+      crustPrize = 100
+    }else{
+      crustPrize = 70
+    }
    
-//     if(this.topping ==="Roasted Tomatoes"){
-//       toppingPrize = 30
-//     }else if(this.topping ==="Roasted Artichokes")
-//     {toppingPrize =35  
+    if(this.topping ==="Roasted Tomatoes"){
+      toppingPrize = 30
+    }else if(this.topping ==="Roasted Artichokes")
+    {toppingPrize =35  
   
-//     }else{
-//       toppingPrize = 40
-//     }
-//    if(this.numberof <=0 ){
-//      numberofPizza = 0
-//    }else{
-//      numberofPizza = this.numberof
-//    }
-//    if(this.delivery === "Yes"){
-//      deliveryprize = 100
-//    }else{
-//      deliveryprize = 0
-//    }
+    }else{
+      toppingPrize = 40
+    }
+   if(this.numberof <=0 ){
+     numberofPizza = 0
+   }else{
+     numberofPizza = this.numberof
+   }
+   if(this.delivery === "Yes"){
+     deliveryprize = 100
+   }else{
+     deliveryprize = 0
+   }
    
-//     let totalPrice = (pizzaPrice + crustPrize + toppingPrize) * numberofPizza
-//     let total = totalPrice + deliveryprize
+    let totalPrice = (pizzaPrice + crustPrize + toppingPrize) * numberofPizza
+    let total = totalPrice + deliveryprize
 
-//     totalOfTotals += total
-//    return total
-//   }
+    totalOfTotals += total
+   return total
+  }
 
 // $(document).ready(function(){
 //   $("button#order").click(function(e){
