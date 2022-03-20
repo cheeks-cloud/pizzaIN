@@ -29,7 +29,7 @@
 * you need to link your index.html to bootstrap.
 * you also need to link your js file to the index.html and order.html
 
- [Go back to the top]( #)
+ [Go back to the top]( #pizzaIN)
 
  ## Technology Used
  * HTML which was used to build the structure of the page.
@@ -45,12 +45,12 @@
   * MDN javascript material.
   * MDN javascript material.
 
-  [Go Back to the top]( #)
+  [Go Back to the top]( #pizzaIN)
 
   ## License
    copyright (c) 2022 License [click to view License](lICENSE)
 
-   [Go back to the top](#)
+   [Go back to the top](#pizzaIN)
 
    ## Authors Info
 
@@ -66,7 +66,18 @@
   Email - [Agnes Kaswii]
   agneskaswii700@gmail.com
 
-  [Go back to the top](#)
+  [Go back to the top](#pizzaIN)
 
   ## BDD
+   * Choose a pizza(small,large,medium)
+   *  choose the crust(crispy,stuffed,gluten-free)
+   *  choose toppings
+   *  order as many pizza as one wants
+   *  place order and see total price-----after clicking,,,show
+   *  option for delivery,,alert on delivery price
+   * prompt ot enter adress,and alert for showing location for delivery
+   *  checkout for total amount charged
+   * cost for each pizza
+   * cost for crust
+   * cost for topping depending on size of pizza total price of    pizza=size+crust+topping
   
