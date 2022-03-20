@@ -21,10 +21,20 @@
 }
 .second{
   padding-top: 70px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
+  background-color: rgb(83, 79, 79);
 }
+.fourth{
+  background-color: rgb(83, 79, 79);
+  color: white;
 
+}
+#orders th{
+  padding-left: 50px;
+
+}
 .addons{
   display: none;
 }
@@ -74,8 +84,6 @@
 }
 .footer{
   color: antiquewhite;
-
-  
   
 }
 @media screen  and  (min-width: 740px){
@@ -93,4 +101,8 @@
   .second div{
     padding-top: 20px;
   }
-} */
+  #orders th{
+    padding-left: 3px;
+  
+  }
+} 
