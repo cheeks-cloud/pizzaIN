@@ -1,0 +1,103 @@
+/* *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#logo{
+  border-radius:50% ;
+  border: 2px solid red;
+}
+.navbar-toggler:hover{
+  border: 2px solid red
+}
+ a {
+  color: antiquewhite;
+}
+/* .carousel-caption{
+  background-color: black;
+  height: 100px;
+  border: 2px solid red;
+  
+  color: white;
+} 
+
+.first{
+  height: 300px;
+  background-image: url("../Images/photo-1647449036501-1341aeb48d8b.jpeg");
+  background-repeat: repeat;
+  background-size: contain;
+
+}
+.addons{
+  display: none;
+}
+.second{
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+#pizzaSize:hover,#crustType:hover,#topping:hover,#noOfPizza:hover{
+  border: 2px solid red;
+  background-color: black;
+  color: antiquewhite;
+}
+.orderContent{
+  padding-top: 50px;
+  padding-left:60px ;
+  padding-right:50px ;
+}
+.orderContent button{
+  margin-left: 43%;
+  margin-top: 8%;
+}
+.orderContent button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+}
+.third span,.fourth span,.fifth span{
+  color: red;
+  
+}
+#orders li{
+  list-style: none;
+
+}
+#makeOrder{
+  margin-top: 40px;
+}
+#delivery{
+  background-color: black;
+  color: antiquewhite;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+#delivery:hover{
+  background-color: red;
+  color: black;
+}
+.text-center{
+  padding-top: 80px;
+}
+.footer{
+  color: antiquewhite;
+
+  
+  
+}
+@media screen  and  (min-width: 740px){
+  .carousel-item img{
+   height: 500px;
+   width: 300px;
+  }
+  
+}
+@media screen  and  (max-width: 740px){
+  .second{
+    flex-direction: column;
+    align-items: center;
+  }
+  .second div{
+    padding-top: 20px;
+  }
+} */
